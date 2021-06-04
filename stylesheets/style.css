@@ -1,0 +1,738 @@
+body{
+	margin:0;
+	color:#6a6f8c;
+	background:#c8c8c8;
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+*,:after,:before{box-sizing:border-box}
+a
+{
+color:inherit;
+text-decoration:none
+}
+span
+{
+ color:white;
+ font-size:15px;
+}
+.login-wrap{
+	width:100%;
+	margin:auto;
+	max-width:525px;
+	min-height:670px;
+	position:relative;
+    background:url(b2.jpg) no-repeat center;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:rgba(40,57,101,.9);
+}
+.login-form
+{
+	min-height:345px;
+	position:relative;
+	
+}
+.login-html .sign-in-htm,
+{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check
+{
+	display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button
+{
+	text-transform:uppercase;
+}
+.login-html .tab
+{
+	font-size:25px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+                    text-tranform:uppercase;
+}
+.login-html .sign-in:checked + .tab
+{
+	color:#fff;
+	border-color:#1161ee;
+}
+.login-form .group{
+	margin-bottom:15px;
+}
+
+.input
+{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+ .input
+{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	color:#aaa;
+	font-size:15px;
+}
+ .label{
+	color:#aaa;
+	font-size:15px;
+}
+.login-form .group .button{
+	background:#1161ee;
+}
+.link{
+	text-align:center;
+}
+
+
+#complete {
+    margin: 0 auto;
+    padding:0;
+    width: 1024px;
+    min-height: 654px;
+    font-family: Tahoma, "Trebuchet MS", Verdana;
+    font-size: 12px;
+    line-height: 1.5em;
+      background-color: #fff;
+    position: relative;
+}
+
+#header {
+    height: 100px;
+       background: url(../images/b2.jpg);
+
+}
+#header1 {
+    height: 660px;
+       
+background:#c8c8c8;
+}
+
+
+#logo {
+    padding: 10px 20px;
+    float: left;
+}
+
+#public_slogan {
+    float: left;
+    font-size: 14px;
+    color: #B7FF01;
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin: 38px auto;
+    letter-spacing: 1px;
+    padding: 0 60px;
+}
+
+#slogan {
+    float: right;
+}
+
+#slogan p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Arial', Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: #B7FF01;
+    text-align: right;
+    padding: 10px 60px 0 0;
+}
+
+
+#content1
+{
+    clear: both;
+    background-image: url(../images/content_bg.jpg);
+    background-repeat: repeat-x;
+    padding: 40px 20px;
+    font-size: 12px;
+    min-height: 200px;
+}
+
+
+#content_index {
+    clear: both;
+    background-image: url(../images/content_bg.jpg);
+    background-repeat: repeat-x;
+    padding: 40px 20px;
+    font-size: 14px;
+    min-height: 400px;
+}
+
+#left {
+    clear: both;
+    float: left;
+    width: 23%;
+    font-size: 12px;
+    border: 3px #afa0a0 double;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    min-height: 250px;
+}
+
+#left ul li {
+    padding-right: 22px;
+}
+
+#left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#left ul li a:hover {
+    color: blue;
+}
+
+#right {
+    float: right;
+    width: 75%;
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+
+#notification {
+    text-align: center;
+    padding: 18px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-bottom: 2px #afa0a0 inset;
+}
+
+#heading {
+    clear: both;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: brown;
+    border-bottom: 1px solid #afa0a0;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+#left li, #codebook_details li {
+    list-style-image: url(../images/list.png);
+    text-align: justify;
+    line-height: 25px;
+}
+
+#para {
+    clear: both; 
+    padding: 0 20px 10px 0;
+}
+
+#right p {
+    color: #484848;
+    text-align: justify;
+    padding: 0 10px 0 20px;
+    line-height: 25px;
+}
+
+#rules ol li {
+    font-size: 12px;
+    color: #484848;
+    text-align: justify;
+    padding: 5px 20px;
+    line-height: 25px;
+}
+
+#footer {
+    clear: both;
+    height: 20px;
+    background: url(../images/footer_bg.jpg) repeat-x;
+    padding: 5px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 1024px;
+}
+
+#notice {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 12px;
+}
+
+#login {
+	height:100%;
+	position:absolute;
+	
+  	padding:0px 10px 10px 10px;
+
+}
+
+#login_label {
+    color: black;
+    font: bold 25px 'Open Sans', sans-serif;
+    letter-spacing: -0.05em;
+    line-height: 20px;
+    margin: 10px 0 30px;
+    text-align: center;
+   
+}
+
+#login img {
+    vertical-align: middle;
+}
+
+#login input[type="text"], #login input[type="password"] {
+                   
+    border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+    font-size: 14px;
+    padding: 0 10px;
+                    
+}
+
+#login input[type="text1"]
+{
+    border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+    font-size: 14px;
+    padding: 0 20px;
+}
+ 
+#login input[type="submit"], #login input[type="button"]   {
+
+   
+    border: 1px solid #D69E31;
+    color:black;
+    background:rgba(255,255,255,.1);
+    font:  15px Helvetica, Arial, sans-serif;
+    border:none;
+	border-radius:30px;
+	background:rgba(255,255,255,.1);                
+	background:#1161ee;
+    height: 35px;
+    position: relative;
+    padding:center;
+    width: 320px;
+
+  
+}
+#tid
+{
+border-radius:25px;
+ padding: 0 10px;	
+padding:10px 10px;
+background:rgba(255,255,255,.1);
+padding-left:20px;
+margin: 0 auto;
+font-size: 12px;	
+    height: 36px;
+	border:none;
+	
+}
+#login styled-select{
+    border: 1px solid #D69E31;
+    color:black;
+    background:rgba(255,255,255,.1);
+    font:  15px Helvetica, Arial, sans-serif;
+    background:rgba(255,255,255,.1);                
+	background:#1161ee;
+    height: 35px;
+    position: relative;
+    width: 320px;
+}
+#login table td {
+    padding-top: 5px;
+}
+
+#content table {
+    border-collapse: collapse;
+    padding: 0;
+    font-size: 14px;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+
+#content td {
+    height: 40px;
+    vertical-align: top;
+    text-align: left;
+}
+
+#content select {
+    width: 214px;
+    height: 27px;
+    vertical-align: middle;
+}
+
+#page_label {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#page_label2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: brown;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#form_label {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+#form_label_searching {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+input {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+input[type="file"] {
+    width: 350px;
+    height: 25px;
+    padding-left:10px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+input[type="text"], input[type="password"], 
+input[type="email"], input[type="number"] {
+    width: 250px;
+    height: 36px;
+    padding-left:10px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+#random {
+    color: brown;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 8px;
+}
+
+#forgot {
+		font-family:sans-serif;
+		text-decoration:none;
+    font-size: 13px;
+    text-align: left;
+    padding-top: 5px;
+    float: left;
+}
+
+#forgot a {
+    text-decoration: none;
+    color : white;
+}
+
+#forgot a:hover {
+    text-decoration: underline;
+}
+
+#error {
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    padding-top: 5px;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"] {
+    height: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    min-width: 100px;
+}
+
+#codebook table {
+    border-collapse: collapse;
+    padding: 0;
+}
+
+#codebook td {
+    text-align: center;
+}
+
+#home_left {
+    clear: both;
+    float: left;
+    width: 39%;
+    font-size: 12px;
+    font-weight: bold;
+    border-right: 3px #000 double;
+}
+
+#home_right {
+    float: right;
+    width: 60%;
+    margin-bottom: 40px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#home_left table, #home_right table {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: black;
+}
+
+#home_left table td, #home_right table td {
+    padding: 0 10px;
+    height: 5px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+#head {
+    color: blue;
+}
+
+#content table td {
+    vertical-align: middle;
+}
+
+table td {
+    vertical-align: middle;
+}
+
+#display {
+    clear: both;
+    background-image: url(../images/content_bg.jpg);
+    background-repeat: repeat-x;
+    padding: 25px 12px;
+    font-size: 12px;
+}
+
+#display_table img {
+    border: none;
+    padding: 0 5px;
+}
+
+#display_table a, #content a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+#display_table a:hover, #content a:hover {
+    color: blue;
+}
+
+#display_table input[type="submit"],
+#display_table input[type="button"],
+#display_table_small input[type="submit"],
+#display_table_small input[type="button"] {
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#page {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+a img {
+    vertical-align: text-bottom;
+    border: none;
+}
+
+#error2 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: red;
+    padding-bottom: 10px;
+}
+
+select {         
+    height: 25px;
+    min-width: 150px;
+    padding-left: 1px;
+    font-size: 14px;
+}
+
+#change {
+    clear: both;
+}
+
+#print_page a {
+    text-decoration: none;
+    color: brown;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#print_page a:hover {
+    color: blue;
+    font-size: 14px;
+}
+
+/*
+    tablesorter -> 100%, no first & last
+    tablesorter2 -> 100%
+    tablesorter3 -> 100%, no first
+    tablesorter_small -> auto, no first & last
+    tablesorter_small2 -> auto
+    tablesorter_small3 -> auto, no first
+*/
+
+table.tablesorter, 
+table.tablesorter2,
+table.tablesorter3 {
+    margin:10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 100%;
+    text-align: left;
+    color: black;
+}
+
+table.tablesorter_small,
+table.tablesorter_small2,
+table.tablesorter_small3 {
+    margin:10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: auto;
+    text-align: left;
+    color: black;
+}
+
+table.tablesorter thead tr th, 
+table.tablesorter2 thead tr th,
+table.tablesorter3 thead tr th,
+table.tablesorter_small thead tr th, 
+table.tablesorter_small2 thead tr th,
+table.tablesorter_small3 thead tr th {
+    background-color: #A7ADB7;
+    padding: 10px 0 10px 10px;
+    text-align: left;
+}
+
+table.tablesorter thead tr .header, 
+table.tablesorter2 thead tr .header,
+table.tablesorter3 thead tr .header,
+table.tablesorter_small thead tr .header, 
+table.tablesorter_small2 thead tr .header,
+table.tablesorter_small3 thead tr .header {
+    background-image: url(../images/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+
+table.tablesorter thead tr .header:first-child, 
+table.tablesorter thead tr .header:last-child,
+table.tablesorter3 thead tr .header:first-child,
+table.tablesorter_small thead tr .header:first-child, 
+table.tablesorter_small thead tr .header:last-child, 
+table.tablesorter_small3 thead tr .header:first-child {
+    background-image: none;
+}
+
+table.tablesorter tbody td, 
+table.tablesorter2 tbody td,
+table.tablesorter3 tbody td,
+table.tablesorter_small tbody td, 
+table.tablesorter_small2 tbody td,
+table.tablesorter_small3 tbody td {
+    color: #3D3D3D;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+table.tablesorter tbody tr:nth-child(odd), 
+table.tablesorter2 tbody tr:nth-child(odd),
+table.tablesorter3 tbody tr:nth-child(odd),
+table.tablesorter_small tbody tr:nth-child(odd), 
+table.tablesorter_small2 tbody tr:nth-child(odd), 
+table.tablesorter_small3 tbody tr:nth-child(odd) { 
+    background-color: #EEEEEE; 
+} 
+
+table.tablesorter thead tr .headerSortUp, 
+table.tablesorter2 thead tr .headerSortUp,
+table.tablesorter3 thead tr .headerSortUp,
+table.tablesorter_small thead tr .headerSortUp, 
+table.tablesorter_small2 thead tr .headerSortUp,
+table.tablesorter_small3 thead tr .headerSortUp {
+    background-image: url(../images/asc.gif);
+}
+
+
+table.tablesorter thead tr .headerSortUp:first-child,
+table.tablesorter thead tr .headerSortUp:last-child, 
+table.tablesorter3 thead tr .headerSortUp:first-child,
+table.tablesorter_small thead tr .headerSortUp:first-child,
+table.tablesorter_small thead tr .headerSortUp:last-child,
+table.tablesorter_small3 thead tr .headerSortUp:first-child {
+    background-image: none;
+}ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ

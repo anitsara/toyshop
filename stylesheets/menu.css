@@ -1,0 +1,162 @@
+.header-outs {
+	position:relative;
+}
+.header-bar {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+}
+h1 a.navbar-top {
+font-size:32px; 
+color: #fff !important; 
+text-transform:capitalize; 
+font-weight: 400;
+letter-spacing: 2px;
+margin: 0px;
+}
+.hedder-up {
+    background: #000;
+}
+#public_nav li a,  
+#public_nav li ul li,
+#public_nav li ul li a,
+    #admin_nav li a,  
+    #admin_nav li ul li,
+    #admin_nav li ul li a,
+	#admin_nav li ul li li a,
+#warden_nav li a,  
+#warden_nav li ul li,
+#warden_nav li ul li a,
+    #employee_nav li a,  
+    #employee_nav li ul li,
+    #employee_nav li ul li a,
+#inmate_nav li a,  
+#inmate_nav li ul li,
+#inmate_nav li ul li a {
+    color: #fff; 
+    background: #000; 
+}
+
+#public_nav li a:hover, 
+#public_nav li ul li a:hover,
+    #admin_nav li a:hover, 
+    #admin_nav li ul li a:hover, 
+#warden_nav li a:hover, 
+#warden_nav li ul li a:hover,
+    #employee_nav li a:hover, 
+    #employee_nav li ul li a:hover,
+#inmate_nav li a:hover, 
+#inmate_nav li ul li a:hover {
+    color: #000;
+    background: #B7FF01;
+}
+
+#menu, #public_nav, #admin_nav, #warden_nav, #employee_nav, #inmate_nav {
+
+  clear: both;
+    background: url(../images/menu.jpg);
+    height: 40px;
+}
+
+#public_nav {
+    margin:0 340px;;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#admin_nav {
+    margin: 0 150px;
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+}
+
+#warden_nav {
+    margin: 0 70px;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#employee_nav {
+    margin: 0 165px;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#inmate_nav {
+    margin: 0 200px;
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+}
+
+#public_nav li a, 
+#public_nav li,
+    #admin_nav li a, 
+    #admin_nav li,
+#warden_nav li a, 
+#warden_nav li,
+    #employee_nav li a, 
+    #employee_nav li,
+#inmate_nav li a, 
+#inmate_nav li {
+    float: left;
+    background: url(../images/menu_divider.png) center right no-repeat;
+    list-style: none;
+    position: relative;	
+}
+
+#public_nav li a, 
+    #admin_nav li a, 
+#warden_nav li a,
+    #employee_nav li a,
+#inmate_nav li a {
+    line-height: 40px;
+    padding: 0 11px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#public_nav li ul,
+    #admin_nav li ul, 
+#warden_nav li ul,
+    #employee_nav li ul,
+#inmate_nav li ul {
+    display: none;
+    position: absolute;
+     top:100%;
+    padding: 0;
+    margin: 0;
+z-index: 99;
+}
+
+#public_nav li:hover > ul,
+    #admin_nav li:hover > ul ,
+#warden_nav li:hover > ul,
+    #employee_nav li:hover > ul,
+#inmate_nav li:hover > ul {
+    display: block;
+
+}
+
+#public_nav li ul li, 
+#public_nav li ul li a, 
+    #admin_nav li ul li,
+    #admin_nav li ul li a,
+#warden_nav li ul li, 
+#warden_nav li ul li a,
+    #employee_nav li ul li, 
+    #employee_nav li ul li a,
+#inmate_nav li ul li, 
+#inmate_nav li ul li a {
+    min-width: 150px; 
+    line-height: 28px;
+    display: block;
+    font-weight: bold;
+}
+
+#last {
+    min-width: 150px; 
+    line-height: 28px;
+    display:block;
+    font-weight: bold;
+    right: 0px;
+} 
